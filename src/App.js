@@ -6,6 +6,7 @@ import { observer } from "mobx-react-lite";
 import { Context } from ".";
 import { check } from "./http/userAPI";
 import { Spinner } from "react-bootstrap";
+import Shop from "./pages/Shop";
 // npm i axios react-router-dom mobx mobx-react-lite
 // react=router-dom для посраничной навигации mobx стейт менеджер mobx-react-lite что бы связать mobx с функциональными компанентами реакта
 // npm install react-bootstrap bootstrap
